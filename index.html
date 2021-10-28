@@ -8,39 +8,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
 
     <div class="innpakning">
         <div class="heading">
             <h1>Elever</h1>
         </div>
         <div class="elever">
-            <div class="elev" draggable="true"> 
-                <h3>Navn</h3>
+            <div class="elev" draggable="true" ondragstart="drag(event)" id="drag1"> 
+                <h3>Navn 1</h3>
             </div>
            
-            <div class="elev" draggable="true"> 
-                <h3>Navn</h3>
+            <div class="elev" draggable="true" ondragstart="drag(event)"  id="drag2"> 
+                <h3>Navn 2</h3>
             </div>
            
-            <div class="elev" draggable="true"> 
-                <h3>Navn</h3>
+            <div class="elev" draggable="true" ondragstart="drag(event)"  id="drag3"> 
+                <h3>Navn 3</h3>
             </div>
            
-            <div class="elev" draggable="true"> 
-                <h3>Navn</h3>
+            <div class="elev" draggable="true"ondragstart="drag(event)" id="drag4"> 
+                <h3>Navn 4</h3>
             </div>
            
-            <div class="elev" draggable="true"> 
-                <h3>Navn</h3>
+            <div class="elev" draggable="true" ondragstart="drag(event)" id="drag5"> 
+                <h3>Navn 5</h3>
             </div>
            
-            <div class="elev" draggable="true"> 
-                <h3>Navn</h3>
+            <div class="elev" draggable="true" ondragstart="drag(event)"  id="drag6"> 
+                <h3>Navn 6</h3>
             </div>
-           
+
+
+            <div id="div2" class="elev" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+         
+              
+
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
