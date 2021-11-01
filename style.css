@@ -29,9 +29,9 @@ h1 {
     flex-direction: row;
 }
 
-.elev {
-    height: 100px;
-    width: 200px;
+.dragcontainer {
+    height: 75px;
+    width: 150px;
     background-color: floralwhite;
     padding: 5px;
     margin: 5px;
@@ -41,6 +41,32 @@ h1 {
     align-content: center;
 }
 
+.elev {
+   height: 100%;
+   width: 100%;
+}
+
 .elev h3 {
     color: black;
+}
+
+.droparea {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.drop {
+    height: 75px;
+    width: 150px;
+    background-color: floralwhite;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    align-content: center;
+
 }
