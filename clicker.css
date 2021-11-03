@@ -2,9 +2,22 @@
 /* clicker css only */
 
 .innhold {
-    height: 1000px;
-    width: 1000px;
+    height: 700px;
+    width: 70%;
     border-style: solid;
     border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.click_img{
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    color: white;
 }
