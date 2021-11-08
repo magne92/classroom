@@ -11,3 +11,8 @@ document.getElementById("click_img").onclick = function(){
     clicks++;
     console.log("clicked");
 }
+
+document.getElementById("clickme").addEventListener("click", function() {
+    clicks++;
+    document.getElementById("click_counter").innerHTML = clicks;
+  });
